@@ -1,0 +1,90 @@
+  id = 12
+ name = Rulin
+ major = cs
+ grade = 1609.0
+------------------------------- 
+ id = 4
+ name = Rulin
+ major = cs
+ grade = 2050.8
+------------------------------- 
+ id = 3
+ name = Rulin 
+ major = se
+ grade = 2330.8
+------------------------------- 
+ id = 2
+ name = RoRO
+ major = b
+ grade = 2561.0
+------------------------------- 
+ id = 2
+ name = Mohammed
+ major = b
+ grade = 2562.8
+------------------------------- 
+ id = 2
+ name = MeMe
+ major = b
+ grade = 2759.2
+------------------------------- 
+ id = 12
+ name = Rulin
+ major = cs
+ grade = 1609.0
+------------------------------- 
+ id = 4
+ name = Rulin
+ major = cs
+ grade = 2050.8
+------------------------------- 
+ id = 3
+ name = Rulin 
+ major = se
+ grade = 2330.8
+------------------------------- 
+ id = 2
+ name = RoRO
+ major = b
+ grade = 2561.0
+------------------------------- 
+ id = 2
+ name = Mohammed
+ major = b
+ grade = 2562.8
+------------------------------- 
+ id = 2
+ name = MeMe
+ major = b
+ grade = 2759.2
+------------------------------- 
+ id = 12
+ name = Rulin
+ major = cs
+ grade = 1609.0
+------------------------------- 
+ id = 4
+ name = Rulin
+ major = cs
+ grade = 2050.8
+------------------------------- 
+ id = 3
+ name = Rulin 
+ major = se
+ grade = 2330.8
+------------------------------- 
+ id = 2
+ name = RoRO
+ major = b
+ grade = 2561.0
+------------------------------- 
+ id = 2
+ name = Mohammed
+ major = b
+ grade = 2562.8
+------------------------------- 
+ id = 2
+ name = MeMe
+ major = b
+ grade = 2759.2
+------------------------------- 

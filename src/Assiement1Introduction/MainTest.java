@@ -8,6 +8,7 @@ package Assiement1Introduction;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.io.IOException;
 import java.io.PrintWriter;
 
 /**
@@ -16,16 +17,16 @@ import java.io.PrintWriter;
  */
 public class MainTest {
 
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args) throws FileNotFoundException, IOException {
 
         Student students[]
                 = {
-                    new ItStudent(12, "shaimaa", "cs", 20,40, 10),
-                    new ItStudent(3, "shaimaa", "se", 27, 58, 9),
-                    new ItStudent(4, "shaimaa", "cs", 28, 51, 8),
-                    new ArtStudent(2, "sara", "b", 30, 51, 8),
-                    new ArtStudent(2, "shosho", "b", 25, 51, 10),
-                    new ArtStudent(2, "soso", "b", 21, 55, 8)
+                    new ItStudent(12, "Rulin", "cs", 20,40, 10),
+                    new ItStudent(3, "Rulin ", "se", 27, 58, 9),
+                    new ItStudent(4, "Rulin", "cs", 28, 51, 8),
+                    new ArtStudent(2, "Mohammed", "b", 30, 51, 8),
+                    new ArtStudent(2, "RoRO", "b", 25, 51, 10),
+                    new ArtStudent(2, "MeMe", "b", 21, 55, 8)
 
                 };
 
@@ -41,7 +42,9 @@ public class MainTest {
 
         }
 
-        File f = new File("C:\\Users\\hp\\Documents\\NetBeansProjects\\Java3Applcation\\file\\Student.txt");
+        File f = new File("file1.txt");
+        if(!f.exists()){
+        f.createNewFile();}
         PrintWriter outOfStrem;
         outOfStrem = new PrintWriter(new FileOutputStream(f, true));
         for (Student student : students) {

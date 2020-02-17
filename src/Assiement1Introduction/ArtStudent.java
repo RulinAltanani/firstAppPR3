@@ -12,7 +12,7 @@ package Assiement1Introduction;
 public class ArtStudent  extends Student{
      public ArtStudent(int id, String name, String major , double midGrade, double finalGrade, double  reportGrade) {
         super(id, name, major);
-        this.setGrade(midGrade*0.40 + reportGrade*0.10 + finalGrade*50);
+        this.grade=(midGrade*0.40 + reportGrade*0.10 + finalGrade*50);
     }
 
    

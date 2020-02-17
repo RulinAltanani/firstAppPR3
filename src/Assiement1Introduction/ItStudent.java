@@ -13,6 +13,6 @@ public class ItStudent extends Student {
 
     public ItStudent(int id, String name, String major, double midGrade, double finalGrade, double ProjectGrade) {
         super(id, name, major);
-        this.setGrade(midGrade * 0.30 + ProjectGrade * 0.30 + finalGrade * 40);
+        this.grade=midGrade * 0.30 + ProjectGrade * 0.30 + finalGrade * 40;
     }
 }

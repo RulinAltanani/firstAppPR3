@@ -1,0 +1,30 @@
+ id = 12
+ name = shaimaa
+ major = cs
+ grade = 1609.0
+------------------------------- 
+ id = 4
+ name = shaimaa
+ major = cs
+ grade = 2050.8
+------------------------------- 
+ id = 3
+ name = shaimaa
+ major = se
+ grade = 2330.8
+------------------------------- 
+ id = 2
+ name = shosho
+ major = b
+ grade = 2561.0
+------------------------------- 
+ id = 2
+ name = sara
+ major = b
+ grade = 2562.8
+------------------------------- 
+ id = 2
+ name = soso
+ major = b
+ grade = 2759.2
+------------------------------- 

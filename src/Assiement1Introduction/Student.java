@@ -11,10 +11,10 @@ package Assiement1Introduction;
  */
 public abstract class Student {
 
-    private int id;
-    private String name;
-    private String major;
-    private double grade;
+  protected int id;
+    protected String name;
+    protected String major;
+    protected double grade;
 
     public Student(int id, String name, String major) {
         this.id = id;
